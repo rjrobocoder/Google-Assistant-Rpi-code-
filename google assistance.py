@@ -4,12 +4,12 @@ from Adafruit_IO import MQTTClient
 import requests
 
 light = 3
-board.setwarnings(False)               #                                  rjrobocoder
+board.setwarnings(False)               #rjrobocoder
 board.setmode(board.BOARD)
 board.setup(light,board.OUT)
 board.setup(7,board.OUT)
 
-ADAFRUIT_IO_USERNAME = "rjrobocoder"   #"enter username here"
+ADAFRUIT_IO_USERNAME = "rjrobocoder"             #"enter username here"
 ADAFRUIT_IO_KEY = "hshjhsjdhuhnbja154djdghagg"   #"enter key here"
 
 def connected(client):
